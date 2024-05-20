@@ -1,0 +1,69 @@
+/* style.css */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #343a40;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0;
+    background-color: #909ba7;
+}
+
+.input-group {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.input-group .form-control {
+    border-right: 0;
+}
+
+.input-group .btn {
+    border-left: 0;
+}
+
+.list-group-item {
+    border: 0;
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.3s;
+    color: blue; 
+    font-size: 1.2rem; 
+}
+
+.list-group-item:last-child {
+    border-bottom: 0;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-danger {
+    color: white;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-danger:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.list-group-item .text-muted {
+    font-size: 0.8rem; 
+}
